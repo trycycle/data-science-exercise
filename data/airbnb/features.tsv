@@ -1,0 +1,107 @@
+feature	description	is_used
+id	物件ID	
+listing_url	物件が掲載されたURL	
+scrape_id	データ抽出ID	
+last_scraped	最後にウェブサイトからデータを抽出した日時	
+name	物件名	
+summary	物件の説明文1	
+space	物件の説明文2	
+description	物件の説明文3	
+experiences_offered	「体験」の提供	
+neighborhood_overview	近隣に関する情報	
+notes	メモ	
+transit	アクセス情報1	
+access	アクセス情報2	
+interaction	ホストが物件に対してどう接しているかの説明	
+house_rules	物件の利用に関する特記事項	
+thumbnail_url	サムネイル画像のURL	
+medium_url	不明	
+picture_url	画像のURL	
+xl_picture_url	画像のURL2	
+host_id	ホストID	
+host_url	ホストに関するURL	
+host_name	ホスト名	
+host_since	ホストになった日時	
+host_location	ホストの所在地	
+host_about	ホスト情報	
+host_response_time	ホストから返答の所用時間（カテゴリ型）	1
+host_response_rate	ホストからの返答率	1
+host_acceptance_rate	予約成立率	1
+host_is_superhost	ホストが「スーパーホスト」か否か（t or f）	1
+host_thumbnail_url	ホストのサムネイル画像のURL	
+host_picture_url	ホストの画像のURL	
+host_neighbourhood	ホストの所在地（区・市レベル）	
+host_listings_count	ホストが掲載している民泊件数	1
+host_total_listings_count	不明	
+host_verifications	ホストの存在をどんな方法で認証したか（リスト）	
+host_has_profile_pic	ホストが自身にプロフィールに写真を載せているか否か（t or f）	1
+host_identity_verified	ホストがAirbnbに身分証明書を提出しているか否か（t or f）	1
+street	物件の所在地	
+neighbourhood	物件の所在地（区・市レベル）	
+neighbourhood_cleansed	物件の所在地（正確な区・市レベル）	1
+neighbourhood_group_cleansed	不明	
+city	物件の所在地（市レベル）	
+state	物件の所在地（県レベル）	
+zipcode	物件の郵便番号	
+market	Airbnb内でのエリア区別	
+smart_location	不明	
+country_code	カントリーコード	
+country	国	
+latitude	緯度	
+longitude	経度	
+is_location_exact	所在地情報が正確か否か（t or f）	1
+property_type	物件のタイプ	1
+room_type	部屋のタイプ	1
+accommodates	1物件あたりの受入ゲスト数	1
+bathrooms	バスルーム数	1
+bedrooms	ベッドルーム数	1
+beds	ベッド数	1
+bed_type	ベッドの種類	1
+amenities	アメニティの種類（リスト）	1
+square_feet	部屋の大きさ	
+price	1泊あたりの宿泊料金	1
+weekly_price	週間宿泊料	
+monthly_price	月間宿泊料	
+security_deposit	預かり保証金の金額	1
+cleaning_fee	清掃料金	1
+guests_included	不明	
+extra_people	不明	
+minimum_nights	最低限宿泊が必要な日数	1
+maximum_nights	最大宿泊可能日数	1
+minimum_minimum_nights	不明	
+maximum_minimum_nights	不明	
+minimum_maximum_nights	不明	
+maximum_maximum_nights	不明	
+minimum_nights_avg_ntm	不明	
+maximum_nights_avg_ntm	不明	
+calendar_updated	空き状況の最終更新日	
+has_availability	データ抽出日に空きがあったか否か	
+availability_30	過去30日の空き日数	
+availability_60	過去60日の空き日数	
+availability_90	過去90日の空き日数	
+availability_365	過去365日の空き日数	
+calendar_last_scraped	空き状況を最後にデータ抽出した日時	
+number_of_reviews	レビュー総数	1
+number_of_reviews_ltm	不明	
+first_review	はじめてレビュー投稿があった日時	
+last_review	最新のレビュー投稿があった日時	
+review_scores_rating	「総合点」に関するレビュースコア	1
+review_scores_accuracy	「正確さ」に関するレビュースコア	1
+review_scores_cleanliness	「清潔さ」に関するレビュースコア	1
+review_scores_checkin	「チェックイン」に関するレビュースコア	1
+review_scores_communication	「コミュニケーション」に関するレビュースコア	1
+review_scores_location	「ロケーション」に関するレビュースコア	1
+review_scores_value	「コストパフォーマンス」に関するレビュースコア	1
+requires_license	許可登録番号を有するか否か	1
+license	許可登録番号	
+jurisdiction_names	管轄区域	
+instant_bookable	簡易予約が可能か否か	1
+is_business_travel_ready	ビジネス利用が可能か（t/f）	1
+cancellation_policy	キャンセルポリシーの種類（カテゴリ型）	1
+require_guest_profile_picture	予約時に予約者の写真を必要とするか否か（t/f）	1
+require_guest_phone_verification	予約時に予約者の電話番号を必要とするか否か（t/f）	1
+calculated_host_listings_count	不明	
+calculated_host_listings_count_entire_homes	不明	
+calculated_host_listings_count_private_rooms	不明	
+calculated_host_listings_count_shared_rooms	不明	
+reviews_per_month	1ヶ月あたりのレビュー数	1
