@@ -8,12 +8,14 @@ Pythonコーディングに不安がある場合は，[Data Science Bootcamp for
 
 
 ## 扱う内容
-1. [SQL & 探索的データ解析（10問）](/eda.ipynb)
+1. [SQL & 探索的データ解析（10問）](/exploratory-data-analaysis.ipynb)
 2. [教師なし学習（クラスタリング & 次元圧縮）（10問）](/unsupervised-learning.ipynb)
 3. [回帰（15問）](/regression.ipynb)
-4. 分類（作成中）
-5. [機械学習の基礎理論（勾配法 & 次元の呪い）（未完）](/misc.ipynb)
+4. [分類（15問）](/classification.ipynb)
+5. [効果検証と因果推論（10問）](/causal-analysis.ipynb)
 6. [グラフ解析（10問）](/graph-analysis.ipynb)
+7. [機械学習アラカルト（勾配法 & 次元の呪い & 特徴量選択）（10問）](/misc.ipynb)
+
 
 
 ## コーディング環境
@@ -26,6 +28,7 @@ Pythonコーディングに不安がある場合は，[Data Science Bootcamp for
 * seaborn
 * numpy
 * scipy
-* scikit learn
+* scikit-learn
+* statsmodels
 * networkx
 
