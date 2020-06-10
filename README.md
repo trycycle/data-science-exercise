@@ -20,13 +20,13 @@ Pythonコーディングに不安がある場合は，[Data Science Bootcamp for
 
 第7章「グラフ解析」以外は，分析対象は**表データ**としています．テキスト情報や画像情報に特化したデータマイニング・機械学習手法を学びたい方は，[言語処理100本ノック](https://nlp100.github.io/ja/)や[画像処理100本ノック](https://yoyoyo-yo.github.io/Gasyori100knock/)などにチャレンジしてください．
 
-1. [SQL & 探索的データ解析（10問）](/exploratory-data-analaysis.ipynb)
-2. [教師なし学習（クラスタリング & 次元圧縮）（10問）](/unsupervised-learning.ipynb)
-3. [回帰（15問）](/regression.ipynb)
-4. [分類（15問）](/classification.ipynb)
-5. [機械学習アラカルト（勾配法 & 次元の呪い & 特徴量選択）（10問）](/misc.ipynb)
-6. [効果検証と因果推論（10問）](/causal-analysis.ipynb)
-7. [グラフ解析（10問）](/graph-analysis.ipynb)
+1. [SQL & 探索的データ解析（10問）](/assignment/exploratory-data-analaysis.ipynb)
+2. [教師なし学習（クラスタリング & 次元圧縮）（10問）](/assignment/unsupervised-learning.ipynb)
+3. [回帰（15問）](/assignment/regression.ipynb)
+4. [分類（15問）](/assignment/classification.ipynb)
+5. [機械学習アラカルト（勾配法 & 次元の呪い & 特徴量選択）（10問）](/assignment/misc.ipynb)
+6. [効果検証と因果推論（10問）](/assignment/causal-analysis.ipynb)
+7. [グラフ解析（10問）](/assignment/graph-analysis.ipynb)
 
 
 
