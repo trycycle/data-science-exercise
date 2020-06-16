@@ -1,16 +1,16 @@
 CREATE TABLE 	"aisles" (
-		"aisle_id" int primary key, 
+		"aisle_id" int primary key,
 		"aisle" varchar(255)
 );
 
 CREATE TABLE 	"departments" (
-		"department_id" int primary key, 
+		"department_id" int primary key,
 		"department" varchar(255)
 );
-	
+
 CREATE TABLE 	"products" (
-		"product_id" int primary key, 
-		"product_name" varchar(255), 
+		"product_id" int primary key,
+		"product_name" varchar(255),
 		"aisle_id" int,
 		"department_id" int,
 		foreign key (aisle_id) references aisles(aisle_id),
@@ -19,7 +19,7 @@ CREATE TABLE 	"products" (
 
 CREATE TABLE 	"orders" (
 		"order_id" int primary key,
-		"user_id" int  NOT NULL, 
+		"user_id" int  NOT NULL,
 		"eval_set" varchar(255),
 		"order_number" int,
 		"order_dow" int,
@@ -28,12 +28,12 @@ CREATE TABLE 	"orders" (
 );
 
 CREATE TABLE 	"order_products" (
-		"order_id" int  NOT NULL, 
-		"product_id" int  NOT NULL, 
+		"order_id" int  NOT NULL,
+		"product_id" int  NOT NULL,
 		"add_to_cart_order" int,
 		"reordered" int,
 		foreign key (order_id) references orders(order_id),
-		foreign key (product_id) references products(product_id)		
+		foreign key (product_id) references products(product_id)
 );
 
 
